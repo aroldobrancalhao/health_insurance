@@ -36,7 +36,7 @@ compra.
  
  **Segunda Análise:** E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
  
- **Terceira Análise:** Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
+ **Terceira Análise:** Quantas ligações o time de vendas precisa fazer para contatar 90% dos clientes interessados em adquirir um seguro de automóvel?
  
  ## Dados Disponíveis para Análise
  
@@ -81,13 +81,14 @@ compra.
 
 | Modelo  |  precision_at_20000  | precision_at_40000  |  recall_at_20000  | recall_at_20000 |
 | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-|  Random Forest |  0,302	 |  0.226 |  	0,661 | 0.988 |
-|  Extra Trees |  0.295 |  0.224 |  0.646 | 0.981 |
-|  KNN |  0.294	 |  0.214	 |  0.644 | 0.938 |
-|  Linear Regression |  0.263 |  0.227 |  0.576 | 0.994 |
+| LightGBM |  0,330	 |  0.229 |  	0,716 | 0.994 |
+|  Random Forest |  0,302	 |  0.228 |  	0,656 | 0.990 |
+|  Extra Trees |  0.296 |  0.226 |  0.643 | 0.981 |
+|  KNN |  0.287	 |  0.205	 |  0.624 | 0.892 |
+|  Linear Regression |  0.268 |  0.229 |  0.582 | 0.994 |
 
 
-O modelo escolhido foi a **Random Forest**, pois apresentou melhores resultados de rankeamento.
+O modelo escolhido foi a **LightGBM**, pois apresentou melhores resultados de rankeamento.
 
 ## Resultados de Negócio
 
@@ -105,11 +106,11 @@ Com o modelo de previsão construído, podemos avaliar seus resultados e respond
 
 **Percebemos que com a capacidade do modelo construído de rankear os clientes com maior propensão de compra, caso a capacidade da equipe seja elevada a 40k ligações a empresa alcançará 92% dos clientes interessados em adquirir o novo produto.**
 
-**Pergunta 3:** Quantas ligações o time de vendas precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro de automóvel?
+**Pergunta 3:** Quantas ligações o time de vendas precisa fazer para contatar 90% dos clientes interessados em adquirir um seguro de automóvel?
 
 ![Image3](/pergunta3.png)
 
-**Para alcançar 80% dos clientes interessados são necessárias 39635 ligações**
+**Para alcançar 90% dos clientes interessados são necessárias 47003 ligações**
 
 ## Produto de Dados
 
