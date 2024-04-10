@@ -1,6 +1,6 @@
 # Health Insurance Cross Sell
 
-![Image Inicial](/money.png)
+![Image Inicial](/imagens/Health_insurance1.webp)
 
 ## Problema de Negócio
 
@@ -96,19 +96,19 @@ Com o modelo de previsão construído, podemos avaliar seus resultados e respond
 
 **Pergunta 1:** Qual a porcentagem de clientes interessados em adquirir um seguro de automóvel, o time de vendas conseguirá contatar fazendo 20.000 ligações?
 
-![Image1](/pergunta1.png)
+![Image1](/imagens/pergunta_1.png)
 
 **Observando a curva de ganho do modelo construído, percebemos uma boa capacidade de rankeamento do mesmo. Percebemos que, ao utilizar nosso modelo a empresa conseguirá alcançar 48% dos clientes interessados.**
 
 **Pergunta 2:** E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 
-![Image2](/pergunta2.png)
+![Image2]((/imagens/pergunta_2.png)
 
 **Percebemos que com a capacidade do modelo construído de rankear os clientes com maior propensão de compra, caso a capacidade da equipe seja elevada a 40k ligações a empresa alcançará 82% dos clientes interessados em adquirir o novo produto.**
 
 **Pergunta 3:** Quantas ligações o time de vendas precisa fazer para contatar 90% dos clientes interessados em adquirir um seguro de automóvel?
 
-![Image3](/pergunta3.png)
+![Image3]((/imagens/pergunta_3.png)
 
 **Para alcançar 90% dos clientes interessados são necessárias 47003 ligações**
 
@@ -116,4 +116,4 @@ Com o modelo de previsão construído, podemos avaliar seus resultados e respond
 
 Para que toda equipe de vendas tenha acesso às previsões feitas pelo modelo, elaborei um produto final no Google Sheets que permite o colaborador fazer consultas e prever a propensão de compra de vários clientes em uma planilha e assim priorizar o clientes com maior Score.
 
-![Image Final](/produto_final.png)
+![Image Final]((/imagens/google_sheets.png)
