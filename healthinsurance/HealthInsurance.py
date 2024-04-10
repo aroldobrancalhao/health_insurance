@@ -34,13 +34,13 @@ class HealthInsurance:
         df4.loc[:, 'gender'] = df4['gender'].map( list_gender )
 
         # region_code - Target Encoding / Frequency Encoding
-        df4.loc[:, 'region_code'] = df4['region_code'].map( self.region_encoder )
+        df4.loc[:, 'region_code'] = df4['region_code'].map(self.region_encoder).astype('int64')
 
         # vehicle_age - One Hot Encoding / Frequency Encoding
         df4 = pd.get_dummies( df4, prefix='vehicle_age', columns=['vehicle_age'] )
 
         # policy_sales_channel - Target Encoding / Frequency Encoding
-        df4.loc[:, 'policy_sales_channel'] = df4['policy_sales_channel'].map( self.sales_channel_encoder )
+        df4.loc[:, 'policy_sales_channel'] = df4['policy_sales_channel'].map(self.sales_channel_encoder).astype('int64')
         
         # Feature Selection
         cols_selected = ['annual_premium', 'vintage', 'age', 'region_code', 'vehicle_damage', 'previously_insured',
