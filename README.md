@@ -102,13 +102,13 @@ Com o modelo de previsão construído, podemos avaliar seus resultados e respond
 
 **Pergunta 2:** E se a capacidade do time de vendas aumentar para 40.000 ligações, qual a porcentagem de clientes interessados em adquirir um seguro de automóvel o time de vendas conseguirá contatar?
 
-![Image2]((/imagens/pergunta_2.png)
+![Image1](/imagens/pergunta_2.png)
 
 **Percebemos que com a capacidade do modelo construído de rankear os clientes com maior propensão de compra, caso a capacidade da equipe seja elevada a 40k ligações a empresa alcançará 82% dos clientes interessados em adquirir o novo produto.**
 
 **Pergunta 3:** Quantas ligações o time de vendas precisa fazer para contatar 90% dos clientes interessados em adquirir um seguro de automóvel?
 
-![Image3]((/imagens/pergunta_3.png)
+![Image1](/imagens/pergunta_3.png)
 
 **Para alcançar 90% dos clientes interessados são necessárias 47003 ligações**
 
@@ -116,4 +116,4 @@ Com o modelo de previsão construído, podemos avaliar seus resultados e respond
 
 Para que toda equipe de vendas tenha acesso às previsões feitas pelo modelo, elaborei um produto final no Google Sheets que permite o colaborador fazer consultas e prever a propensão de compra de vários clientes em uma planilha e assim priorizar o clientes com maior Score.
 
-![Image Final]((/imagens/google_sheets.png)
+![Image1](/imagens/google_sheets.png)
